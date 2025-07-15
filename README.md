@@ -38,13 +38,16 @@
    composer install
    ```
 3. Выполнить миграции:
-    ```cp .env.example .env
+    ```bash
+    cp .env.example .env
     ```
 4. Создать .env файл:
-   ```php artisan key:generate
+   ```bash
+   php artisan key:generate
    ```
 5. Создать ключ приложения:
-   ```php artisan migrate
+   ```bash
+   php artisan migrate
    ```
 5. Запустите проект:
    ```bash
