@@ -49,7 +49,11 @@
    ```bash
    php artisan migrate
    ```
-5. Запустите проект:
+6. Запустите проект:
    ```bash
    php artisan serve
+   ```
+7. Перейти на адресс:
+   ```bash
+   [php artisan serve](http://127.0.0.1:8000/todos)
    ```
