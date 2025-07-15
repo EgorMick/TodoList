@@ -34,7 +34,8 @@
    cd TodoList
    ```
 2. Установить Composer-зависимости:
-   ```composer install
+   ```bash
+   composer install
    ```
 3. Выполнить миграции:
     ```cp .env.example .env
