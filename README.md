@@ -33,8 +33,19 @@
    git clone https://github.com/EgorMick/TodoList.git
    cd TodoList
    ```
-
-2. Запустите проект:
+2. Установить Composer-зависимости:
+   ```composer install
+   ```
+3. Выполнить миграции:
+    ```cp .env.example .env
+    ```
+4. Создать .env файл:
+   ```php artisan key:generate
+   ```
+5. Создать ключ приложения:
+   ```php artisan migrate
+   ```
+5. Запустите проект:
    ```bash
    php artisan serve
    ```
