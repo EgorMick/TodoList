@@ -33,15 +33,15 @@
    ```bash
    composer install
    ```
-3. Выполнить миграции:
+3. Создать .env файл:
     ```bash
     cp .env.example .env
     ```
-4. Создать .env файл:
+4. Создать ключ приложения:
    ```bash
    php artisan key:generate
    ```
-5. Создать ключ приложения:
+5. Выполнить миграции:
    ```bash
    php artisan migrate
    ```
