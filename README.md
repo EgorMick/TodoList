@@ -53,4 +53,3 @@
    ```bash
    http://127.0.0.1:8000/todos
    ```
-<img width="949" height="324" alt="image" src="https://github.com/user-attachments/assets/476fb14f-c65a-4833-ab3e-8c1c9407b3d6" />
